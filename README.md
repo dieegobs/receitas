@@ -1,1 +1,1 @@
-# Receitas
+# Aplicativo de Receitas
