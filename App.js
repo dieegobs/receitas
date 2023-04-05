@@ -1,32 +1,13 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text } from 'react-native';
+
+import { Routes } from './src/routes'
+import { NavigationContainer } from '@react-navigation/native';
+
 
 export default function App(){
   return(
-    <View style={styles.container}>
-      <Text style={styles.title}>Meu Primeiro App!!!</Text>
-      <Nome nome="Diego Bittencourt"/>
-      <Nome nome="Junior dos Santos"/>
-      <Nome nome="Bianca"/>
-
-    </View>
-  )
-}
-
-const styles = StyleSheet.create({
-    container:{ 
-      
-      height: 400
-    },
-    title: {
-      fontSize: 24,
-      marginTop: 100,
-      
-    }
-})
-
-
-function Nome ({nome}){
-  return(
-    <Text>Olá, {nome}</Text>
+    <NavigationContainer>
+      <Routes/>
+    </NavigationContainer>
   )
 }
