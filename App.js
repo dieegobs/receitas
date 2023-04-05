@@ -6,6 +6,7 @@ export default function App(){
       <Text style={styles.title}>Meu Primeiro App!!!</Text>
       <Nome nome="Diego Bittencourt"/>
       <Nome nome="Junior dos Santos"/>
+      <Nome nome="Bianca"/>
 
     </View>
   )
@@ -13,13 +14,13 @@ export default function App(){
 
 const styles = StyleSheet.create({
     container:{ 
-      backgroundColor: "red",
+      
       height: 400
     },
     title: {
       fontSize: 24,
       marginTop: 100,
-      color: "white"
+      
     }
 })
 
