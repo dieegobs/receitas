@@ -6,6 +6,7 @@ export function Home(){
     return(
         <SafeAreaView style={styles.container}>
             <Logo/>
+            
         </SafeAreaView>
     )
 }
